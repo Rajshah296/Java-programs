@@ -2,7 +2,8 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import java.io.*;
 import java.util.*;
-public class P19 extends GenericServlet
+
+public class Prac_19 extends GenericServlet
 {
 	String sCount;
 	int count;

@@ -1,8 +1,9 @@
 import java.awt.*;
 import javax.swing.*;
 import java.sql.*;
+
 import java.awt.event.*;
-public class Practical18 extends JApplet implements ActionListener
+public class Prac_18 extends JApplet implements ActionListener
 {
 	JTextField jtf1=new JTextField(10);
 	JTextField jtf2=new JTextField(10);
@@ -42,16 +43,12 @@ public class Practical18 extends JApplet implements ActionListener
 			Class.forName("com.mysql.jdbc.Driver");
 			cn = DriverManager.getConnection("jdbc:mysql://localhost:3306/testdb","root","");stmt=cn.createStatement();
 		}
-		catch(Exception e){System.out.println(e);}
-		
+		catch(Exception e){System.out.println(e);}	
 	}
-	private void initializeDB()
-	{
-		
-	}
+	
 	public void actionPerformed(ActionEvent e)
 	{
-		/*String s1,s2;
+		String s1,s2;
 		if(e.getActionCommand().equals("Insert"))
 		{
 			s1= jtf1.getText();
@@ -80,8 +77,8 @@ public class Practical18 extends JApplet implements ActionListener
 		{
 			try
 			{
-				String sql = "delete from stud " + "where id="+jtf1.getText();
-				stmt.execute(sql);
+				String sql = "delete from stud " + "where id='"+jtf1.getText()+"'";
+				stmt.executeUpdate(sql);
 				JOptionPane.showMessageDialog(null, "Record is deleted!!!");
 			}
 			catch(SQLException ex)
@@ -93,8 +90,8 @@ public class Practical18 extends JApplet implements ActionListener
 		{
 			try
 			{
-				String sql="update stud set name='"+jtf2.getText()+"' where id ="+jtf1.getText()+"";
-				stmt.execute(sql);
+				String sql="update stud set name='"+jtf2.getText()+"' where id='"+jtf1.getText()+"'";
+				stmt.executeUpdate(sql);
 				JOptionPane.showMessageDialog(null, "Record is Updated!!!");
 			}
 			catch(SQLException ex)
@@ -108,7 +105,7 @@ public class Practical18 extends JApplet implements ActionListener
 			jtf2.setText("");
 			jlb3.setText("");
 			jlb4.setText("");
-		}*/
+		}
 	}
 }
 /*<applet code="Practical18.class" width=500 height=300></applet>*/
