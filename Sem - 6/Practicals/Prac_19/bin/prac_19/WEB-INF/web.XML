@@ -1,0 +1,12 @@
+<servlet>
+    <servlet-name>Prac_19</servlet-name>
+    <servlet-class>Prac_19</servlet-class>
+    <init-param>
+        <param-name>initial</param-name>
+        <param-value>0</param-value>
+    </init-param>
+</servlet>
+<servlet-mapping>
+    <servlet-name>Prac_19</servlet-name>
+    <url-pattern>/counter</url-pattern>
+</servlet-mapping>

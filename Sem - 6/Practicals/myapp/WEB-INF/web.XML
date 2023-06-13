@@ -1,0 +1,12 @@
+<servlet>
+    <servlet-name>CounterServlet</servlet-name>
+    <servlet-class>CounterServlet</servlet-class>
+    <init-param>
+        <param-name>initial</param-name>
+        <param-value>0</param-value>
+    </init-param>
+</servlet>
+<servlet-mapping>
+    <servlet-name>CounterServlet</servlet-name>
+    <url-pattern>/counter</url-pattern>
+</servlet-mapping>

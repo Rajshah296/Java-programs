@@ -1,9 +1,10 @@
+package prac_20;
 
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
 
-public class ColorServlet extends HttpServlet {
+public class Prac_20 extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)

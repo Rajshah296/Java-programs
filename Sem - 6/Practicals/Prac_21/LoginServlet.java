@@ -1,4 +1,4 @@
-package P21;
+package Prac_21;
 
 import java.io.*;
 import javax.servlet.*;
