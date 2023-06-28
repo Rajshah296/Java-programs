@@ -19,7 +19,7 @@ public class Prac_9 extends Applet implements ItemListener{
         bch = new Checkbox("Blue");
         rch.addItemListener(this);
         gch.addItemListener(this);
-        bch.addItemListener(this);
+        bch.addItemListener(this); 
         add(rch);
         add(gch);
         add(bch);

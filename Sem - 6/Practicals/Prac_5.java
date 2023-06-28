@@ -11,7 +11,7 @@ import java.awt.event.*;
 public class Prac_5 extends Applet  {
 
     int x,y;
-    String s;
+    
     public void init(){
         addMouseMotionListener(new MouseAdapter(){
             public void mouseMoved(MouseEvent e){
