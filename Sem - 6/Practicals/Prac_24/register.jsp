@@ -1,7 +1,7 @@
 <%-- 
     Document   : register.jsp
     Created on : May 8, 2023, 8:30:18 PM
-    Author     : Hello
+    Author     : Raj Shah
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

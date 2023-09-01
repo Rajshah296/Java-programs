@@ -1,7 +1,7 @@
 <%-- 
     Document   : welcome
     Created on : May 7, 2023, 10:28:59 AM
-    Author     : Hello
+    Author     : Raj
 --%>
 <%@page import = "java.sql.*" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -27,7 +27,7 @@
                     out.println("Welcome "+name);
                 }
                 else
-                   out.println("Wrong User Name or Password");
+                out.println("Wrong User Name or Password");
             }
             catch(Exception e)
             {

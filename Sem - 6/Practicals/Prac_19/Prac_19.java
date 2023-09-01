@@ -4,11 +4,7 @@ import javax.servlet.http.*;
 import javax.servlet.*;
 
 public class Prac_19 extends HttpServlet {
-    private int counter;
-    @Override
-    public void init() throws ServletException{
-        counter = 0;
-    }
+    private int counter = 0;
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException,IOException{
         counter++;
         response.setContentType("text/html");

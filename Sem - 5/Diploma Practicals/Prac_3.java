@@ -14,5 +14,6 @@ public class Prac_3 {
             num = num/10;
         }
         System.out.println("The reverse number of "+ num2 +" is : " + rev);
+        sc.close();
     }
 }
