@@ -1,5 +1,3 @@
-package Java_clg_Prac;
-import java.io.*;
 import java.util.Scanner;
 public class Prac_2 {
     public static void main(String args[]) {

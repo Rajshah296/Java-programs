@@ -1,4 +1,4 @@
-package Java_clg_Prac;
+
 
 interface E{
     int e = 5 ;
@@ -43,7 +43,7 @@ public class Prac_11 {
         System.out.println("The value of d1.a is : " + d1.a);
         d1.setb(6);
         System.out.println("The value of d1.b is : " + d1.b);
-        System.out.println("The value of d1.e is : " + d1.e);
+        System.out.println("The value of d1.e is : " + E.e);
         c1.setc(10);
         System.out.println("The value of d1.e is : " + c1.c);
 

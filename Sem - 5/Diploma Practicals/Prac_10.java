@@ -1,10 +1,11 @@
-package Java_clg_Prac;
+
 
 class H{
     public int a,b;
     static H getobj = null;
 
-    private H(int x, int y){
+    private H(int x, int y) // Private Constructor
+    {
         a = x;
         b = y;
     }

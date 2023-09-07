@@ -1,5 +1,4 @@
-package Java_clg_Prac;
-import java.io.*;
+
 
 // Java program to demonstrate working of throws
 public class Prac_20

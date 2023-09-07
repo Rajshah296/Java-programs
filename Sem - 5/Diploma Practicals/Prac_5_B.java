@@ -1,4 +1,4 @@
-package Java_clg_Prac;
+
 
 public class Prac_5_B {
     public static void main(String args[]) {

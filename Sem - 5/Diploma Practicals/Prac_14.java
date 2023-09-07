@@ -1,5 +1,5 @@
-package Java_clg_Prac;
-import java.io.*;
+
+
 
 interface P1{
     int p1 = 5;

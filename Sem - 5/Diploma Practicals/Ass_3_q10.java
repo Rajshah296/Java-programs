@@ -1,5 +1,3 @@
-package Java_clg_Prac;
-import java.io.*;
 
 class account{
     String Name_of_depositor, acc_type;
@@ -45,7 +43,7 @@ class account{
     account(String name , float balance , String acc_type)
     {
         Name_of_depositor = name;
-        this.ano = this.NoOfAccounts;
+        this.ano = account.NoOfAccounts;
         this.acc_type = acc_type; 
         if(balance >= 25000.0){
             bal = balance;
@@ -57,7 +55,7 @@ class account{
             System.out.println("# Only after depositing the minimum required amount for this account, you can perform transactions.\n# Till then your account shall remain in under minimum  balance category and all transactions other than deposits are restricted.\n\n");
             flag = false;
         }
-        this.NoOfAccounts++;
+        account.NoOfAccounts++;
     }
 }
 

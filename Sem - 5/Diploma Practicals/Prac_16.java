@@ -1,6 +1,3 @@
-package Java_clg_Prac;
-import java.io.*;
-
 abstract class Shape{
     abstract double area();
 }

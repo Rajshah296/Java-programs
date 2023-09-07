@@ -1,7 +1,7 @@
 // Java program to demonstrate implementation of Singleton
 // pattern using private constructors.
-package Java_clg_Prac;
-import java.io.*;
+
+
 
 class MySingleton
 {

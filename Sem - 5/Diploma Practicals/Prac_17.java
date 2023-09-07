@@ -1,5 +1,4 @@
-package Java_clg_Prac;
-import java.io.*;
+
 
 class parent{
     int a;

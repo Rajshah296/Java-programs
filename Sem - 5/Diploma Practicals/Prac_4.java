@@ -1,4 +1,4 @@
-package Java_clg_Prac;
+
 public class Prac_4 {
     public static void main(String args[]) {
         Integer myInt = 100; // Creating an object of Integer wrapper class.

@@ -1,6 +1,4 @@
-package Java_clg_Prac;
 import java.lang.Thread;
-import java.io.*;
 
 class mythr1 extends Thread{
     public void run(){

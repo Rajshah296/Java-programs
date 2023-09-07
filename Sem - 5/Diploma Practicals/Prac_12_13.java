@@ -1,5 +1,5 @@
-package Java_clg_Prac;
-import java.io.*;
+
+
 
 class Y{
     static int x;

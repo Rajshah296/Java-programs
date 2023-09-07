@@ -1,4 +1,4 @@
-package Java_clg_Prac;
+
 
 public class Prac_6 {
 

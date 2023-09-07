@@ -1,5 +1,5 @@
-package Java_clg_Prac;
-import java.io.*;
+
+import java.util.Formatter;
 
 abstract class Area{
     abstract public double area();
@@ -32,30 +32,18 @@ class Rectangle extends Area{
 
 public class Ass_3_Q9{
     static String superscript(String str) {
-        str = str.replaceAll("0", "⁰");
-        str = str.replaceAll("1", "¹");
-        str = str.replaceAll("2", "²");
-        str = str.replaceAll("3", "³");
-        str = str.replaceAll("4", "⁴");
-        str = str.replaceAll("5", "⁵");
-        str = str.replaceAll("6", "⁶");
-        str = str.replaceAll("7", "⁷");
-        str = str.replaceAll("8", "⁸");
-        str = str.replaceAll("9", "⁹");         
+        Formatter formatter = new Formatter();
+        formatter.format("{}{}", str, "^2");
+        str = formatter.toString();
+        formatter.close();
         return str;
     }
     
     static String subscript(String str) {
-        str = str.replaceAll("0", "₀");
-        str = str.replaceAll("1", "₁");
-        str = str.replaceAll("2", "₂");
-        str = str.replaceAll("3", "₃");
-        str = str.replaceAll("4", "₄");
-        str = str.replaceAll("5", "₅");
-        str = str.replaceAll("6", "₆");
-        str = str.replaceAll("7", "₇");
-        str = str.replaceAll("8", "₈");
-        str = str.replaceAll("9", "₉");
+        Formatter formatter = new Formatter();
+        formatter.format("{}{}", str, "{0,<sub>2</sub>}");
+        str = formatter.toString();
+        formatter.close();
         return str;
     }
     public static void main(String args[]) {

@@ -1,4 +1,3 @@
-package Java_clg_Prac;
 import java.io.*;
 import java.util.Scanner;
 

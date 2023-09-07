@@ -1,6 +1,6 @@
-package Java_clg_Prac;
+
 import java.lang.Thread;
-import java.io.*;
+
 
 class even_num implements Runnable{
     int i = 1,j = 0;

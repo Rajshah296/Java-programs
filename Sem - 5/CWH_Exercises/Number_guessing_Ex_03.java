@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.Random;
 import java.util.Scanner;
 class Game{
@@ -14,7 +13,10 @@ class Game{
     public int takeuserinput(){
         Scanner s1 = new Scanner(System.in);
         System.out.println("Guess a number : ");
-        return s1.nextInt();
+        int a = s1.nextInt();
+        s1.close();
+        return a;
+
     } 
 
     public boolean correctnumber(int number){
